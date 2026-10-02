@@ -126,7 +126,7 @@ Achte darauf, dass die Wahrnehmer etwas **bemerken**, während die Beurteiler et
 | **Fe** | „Wie reagiert die Familie, wenn ich Bedenken äußere? Wie sage ich das, ohne ihn zu entmutigen?" |
 | **Fi** | „Das ist sein Traum. Es passt zu ihm, es ist echt, und das zählt." |
 
-Kein Eintrag ist „richtig". Jeder sieht einen echten Teil des Bildes. Wir kommen auf genau diesen Plan in Abschnitt 7 zurück.
+Kein Eintrag ist „richtig". Jeder sieht einen echten Teil des Bildes. Wir kommen auf genau diesen Plan in Abschnitt 8 zurück.
 
 ---
 
@@ -360,7 +360,82 @@ flowchart TD
 
 ---
 
-## 7. Fallstudie: Eine Familie und ein Schokoladen-Businessplan
+## 7. Warum manche schnell entscheiden und andere (zum Beispiel ENTPs) nicht
+
+Mit dem Wissen aus Abschnitt 4 lässt sich eine Frage beantworten, die im Alltag oft für Reibung sorgt: Warum legt sich der eine nach fünf Minuten fest, während der andere nach drei Wochen immer noch abwägt?
+
+Laut Modell hängt das an drei Eigenschaften des Stacks:
+
+1. **Wo steht der erste Beurteiler?** Auf Platz 1 ist die „Entscheidungsmaschine" im Vordergrund. Auf Platz 2 wird zuerst wahrgenommen, und das Urteil kommt danach.
+2. **Ist dieser Beurteiler nach außen oder nach innen gerichtet?** Te und Fe arbeiten mit Kriterien, die außen liegen und sich teilen lassen: Zahlen, Ziele, Regeln, die Bedürfnisse der Gruppe. Ti und Fi arbeiten mit einem inneren Maßstab, der erst *stimmig* sein muss, und den niemand von außen abkürzen kann.
+3. **Was liefert der Wahrnehmer?** Ni und Si *verengen* (ein Muster, ein Präzedenzfall). Ne und Se *öffnen* (neue Optionen, neue Reize im Moment).
+
+Die zweite Frage hängt direkt am letzten Buchstaben: **J** heißt, die nach außen gerichtete Funktion der Top 2 ist ein Beurteiler. Andere sehen also vor allem dein *Urteil*, und du legst dich sichtbar fest. **P** heißt, nach außen zeigt sich dein *Wahrnehmer*, und du hältst sichtbar Optionen offen. Das ist auch einer der empirisch solideren Punkte: Die J/P-Skala korreliert deutlich mit Gewissenhaftigkeit aus den Big Five (McCrae & Costa, 1989).
+
+```mermaid
+flowchart TD
+    Q["Eine Entscheidung steht an"] --> A{"Welcher Beurteiler<br/>arbeitet in den Top 2?"}
+    A -->|"Te oder Fe<br/>ENTJ, ISTJ, ISFJ"| B["Äußere Kriterien<br/>Ziele, Regeln, Gruppe"]
+    A -->|"Ti oder Fi<br/>INTP, ISTP, ENTP, ESFP"| C["Innerer Maßstab<br/>muss stimmig sein"]
+    B --> D{"Wahrnehmer verengt<br/>oder öffnet?"}
+    C --> E{"Wahrnehmer verengt<br/>oder öffnet?"}
+    D -->|"Ni oder Si verengt"| F["Schnell und sichtbar festgelegt"]
+    E -->|"Se öffnet, aber nur das Jetzt"| G["Schnell im Moment,<br/>zäh bei Langfristigem"]
+    E -->|"Ne öffnet ständig neue Optionen"| H["Gründlich bis endlos,<br/>Entscheidung kostet Energie"]
+```
+
+### Die sechs Typen und ihre Entscheidungsstile
+
+| Typ | Entscheidungsstil | Erklärung im Modell |
+| --- | --- | --- |
+| **ENTJ** Kommandeur (Te–Ni) | Schnell, entschlossen | Te entscheidet nach klaren, äußeren Zielen. Ni verengt die Optionen auf einen Weg. Beide Kräfte zeigen in Richtung „festlegen". |
+| **ISTJ** Logistiker (Si–Te) | Zügig, eher konservativ | Si liefert den Präzedenzfall („Das hat funktioniert"), Te wendet Regeln und Checklisten an. |
+| **ISFJ** Verteidiger (Si–Fe) | Schnell für andere, langsam für sich selbst | Fe weiß, was die Gruppe braucht. Für eigene Wünsche fehlt ein klares Kriterium, denn der innere Maßstab (Ti) ist erst tertiär. |
+| **ISTP** Virtuose (Ti–Se) | Blitzschnell im Handeln, träge bei langen Plänen | Se liefert in Echtzeit konkrete Daten, Ti bewertet sie sofort. Bei abstrakten Langfristplänen fehlt dieser Strom an konkretem Material. |
+| **INTP** Logiker (Ti–Ne) | Gründlich, oft verzögert | Ti steht zwar oben, will aber ein lückenloses Modell. Ne liefert ständig neue Varianten und Gegenbeispiele, die das Modell wieder öffnen. |
+| **ENTP** Debattierer (Ne–Ti) | Zögerlich bis sprunghaft | Siehe unten. |
+
+Ein Detail, das die Tabelle zeigt: Ein Beurteiler auf Platz 1 allein macht noch nicht schnell. Der INTP hat Ti ganz oben und entscheidet trotzdem langsam, weil Ti nach innen gerichtet ist und Ne das Spielfeld ständig erweitert. Der ISTJ hat einen Wahrnehmer oben und entscheidet trotzdem zügig, weil Si verengt und Te nach außen gerichtet ist. Die **Kombination** zählt, nicht ein einzelner Buchstabe.
+
+### Warum es ENTPs besonders schwer haben
+
+Beim ENTP zeigen alle drei Eigenschaften in Richtung „offen lassen", und die Inferiore liefert keinen Anker:
+
+```mermaid
+flowchart LR
+    Ne["Ne, dominant<br/>erzeugt neue Optionen"] -->|"liefert Varianten"| Ti["Ti, Hilfsfunktion<br/>sucht die logisch beste"]
+    Ti -->|"findet bei jeder<br/>eine Schwachstelle"| Ne
+    Fe["Fe, tertiär<br/>Wie kommt das bei anderen an?"] -->|"zusätzliche Variablen"| Ti
+    Si["Si, inferior<br/>Erfahrung als Anker"] -.->|"fehlt weitgehend"| Ti
+```
+
+1. **Der Wahrnehmer steht oben, und er öffnet.** Ne will Möglichkeiten sammeln, nicht schließen. Eine Entscheidung heißt für Ne, dass neun von zehn spannenden Wegen sterben. Das fühlt sich wie Verlust an.
+2. **Das Urteil kommt erst auf Platz 2 und ist nach innen gerichtet.** Ti hat kein äußeres Regelwerk, das man einfach anwenden könnte. Es braucht ein innerlich stimmiges Argument, und weil Ne laufend neue Daten nachliefert, kippt das Argument immer wieder.
+3. **Fe auf Platz 3** fügt eine weitere Ebene hinzu: Was bedeutet das für die anderen, wie kommt es an? Mehr Variablen, mehr Abwägung.
+4. **Si auf Platz 4 fehlt als Anker.** Si wäre das „Das haben wir schon so gemacht, und es hat funktioniert". Beim ENTP ist das die schwächste Funktion, also muss jede Entscheidung quasi neu begründet werden.
+
+Wichtig: Das ist keine Schwäche im Denken. ENTPs entscheiden oft sehr schnell, wenn die Optionen **klar, umkehrbar oder von außen begrenzt** sind, etwa durch eine Deadline oder ein Gegenüber im Gespräch. Schwierig wird es bei **offenen Entscheidungen mit vielen Möglichkeiten und ohne Frist**.
+
+### Praktische Hebel, abgeleitet aus dem Stack
+
+Jeder Hebel ersetzt oder stärkt ein Element, das im ENTP-Stack fehlt oder schwach ist:
+
+| Hebel | Was er im Modell ersetzt |
+| --- | --- |
+| Externe Frist setzen | Das fehlende äußere Kriterium (Te- oder Fe-Ersatz) |
+| Höchstens drei Optionen zulassen, dann wählen | Bremst Ne |
+| Die Entscheidung als Experiment framen („vier Wochen testen") | Beruhigt Ne, weil nichts endgültig verloren geht |
+| Vorher festlegen, was „gut genug" ist | Gibt Ti ein Abbruchkriterium statt der Suche nach der perfekten Lösung |
+| Mit einem Te-Menschen sprechen | Holt den fehlenden Rahmen aus Zahlen und Zielen von außen |
+| Frühere ähnliche Entscheidungen aufschreiben und auswerten | Baut das schwache Si bewusst als Anker auf |
+
+Für den INTP gelten fast dieselben Hebel. Der Unterschied: Beim INTP ist die Ti-Gründlichkeit oft das eigentliche Problem, nicht der Ne-Optionenreichtum. Das „Gut genug"-Kriterium ist hier der wichtigste Hebel.
+
+**Einordnung:** Entscheidungsverhalten hängt zusätzlich von Erfahrung, Stress, Kontext und Persönlichkeitsmerkmalen wie Gewissenhaftigkeit oder Ängstlichkeit ab. Der Stack beschreibt Tendenzen, keine Gesetze.
+
+---
+
+## 8. Fallstudie: Eine Familie und ein Schokoladen-Businessplan
 
 Zum Schluss wird das Modell auf echte Menschen angewendet. Die Typen sind Selbst- bzw. Fremdeinschätzungen, beim Cousin ausdrücklich nur eine Vermutung.
 
@@ -385,7 +460,7 @@ flowchart TD
 ```
 
 - **Se (dominant)** erklärt den Erfolg am Festivalstand. Präsenz, direktes Reagieren auf Menschen, das Gespür für das, was im Moment funktioniert: Das ist keine Schwäche des Plans, das ist sein stärkstes Fundament.
-- **Fi (Hilfsfunktion)** trifft die Entscheidung: Das Anwesen, die eigene Manufaktur, das fühlt sich richtig und authentisch an. Für Fi ist der Plan ein Stück Identität. Kritik am Plan kann sich deshalb wie Kritik an der Person anfühlen.
+- **Fi (Hilfsfunktion)** trifft die Entscheidung: Das Anwesen, die eigene Manufaktur, das fühlt sich richtig und authentisch an. Für Fi ist der Plan ein Stück Identität. Kritik am Plan kann sich deshalb wie Kritik an der Person anfühlen. Im Sinne von Abschnitt 7 ist das ein schneller Entscheidungsstil: Se liefert ein lebendiges Bild, Fi sagt „Ja", und weil Ni erst auf Platz 4 steht, gibt es wenig, was die Entscheidung wieder öffnet.
 - **Te (tertiär)** ist laut Modell vorhanden, aber weniger ausgereift. Tertiäre Funktionen arbeiten oft im Dienst der oberen beiden: Die Zahlen werden dann nicht genutzt, um die Entscheidung zu *prüfen*, sondern um eine bereits getroffene Fi-Entscheidung zu *begründen*. Das passt zum Eindruck „geschönt".
 - **Ni (inferior)** ist genau die Funktion, die fragt: „Wohin führt das in fünf Jahren? Was übersehe ich?" Abgelegene Lage, Personal, Saisonabhängigkeit, Wegfall der Rente: Das sind typische Ni-Themen, also genau der blinde Fleck.
 
@@ -435,7 +510,7 @@ Das Typmodell erklärt hier also nicht *ob* jemand zu optimistisch ist, sondern 
 
 ---
 
-## 8. Das Wichtigste in sieben Sätzen
+## 9. Das Wichtigste in acht Sätzen
 
 1. Es gibt **vier Wahrnehmer** (Se, Si, Ne, Ni), die Daten aufnehmen, und **vier Beurteiler** (Te, Ti, Fe, Fi), die sie auswerten.
 2. Das i oder e sagt, **wo** eine Funktion ihr Material oder ihren Maßstab findet, nicht wie gesellig jemand ist.
@@ -443,7 +518,8 @@ Das Typmodell erklärt hier also nicht *ob* jemand zu optimistisch ist, sondern 
 4. Diese Regeln erzeugen genau **16 Stacks**, einen pro Buchstabencode. Das Modell ist in sich geschlossen.
 5. Bei Introvertierten beschreibt der letzte Buchstabe die **Hilfsfunktion**. Ein INTP ist im Kern ein Beurteiler (Ti).
 6. Entwicklung heißt laut Modell **Reihenfolge**: Dominante, Hilfsfunktion, Tertiäre, Inferiore. Dass Menschen reifer werden, ist belegt, dass es in dieser Reihenfolge geschieht, nicht.
-7. Nutze das Modell als **Landkarte für Perspektiven**, nicht als Diagnose: Es zeigt, wer was sieht und wer was übersieht.
+7. Wie schnell jemand entscheidet, hängt an der **Kombination** aus Position und Richtung des ersten Beurteilers und daran, ob der Wahrnehmer verengt (Ni, Si) oder öffnet (Ne, Se).
+8. Nutze das Modell als **Landkarte für Perspektiven**, nicht als Diagnose: Es zeigt, wer was sieht und wer was übersieht.
 
 ---
 
