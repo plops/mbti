@@ -1,7 +1,3 @@
-Hier ist die englische Übersetzung. Um dir später den Abgleich mit der chinesischen Version so einfach wie möglich zu machen, habe ich **alle Überschriften und Unterüberschriften streng durchnummeriert** (1.1, 1.2, etc.). Auch die Texte in den Diagrammen (Mermaid) wurden ins Englische übersetzt.
-
-***
-
 # Understanding Cognitive Functions
 
 *What lies behind the four letters, how the model works, and why you can understand it without having to blindly believe in it.*
