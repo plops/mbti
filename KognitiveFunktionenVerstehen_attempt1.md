@@ -192,7 +192,74 @@ flowchart TD
 
 ---
 
-## 6. Was du daraus mitnehmen kannst
+## 6. Warum manche schnell entscheiden und andere (z. B. ENTP) nicht
+
+Entscheidungsgeschwindigkeit hängt an **drei Fragen** zum Stack:
+
+1. **Steht eine Beurteilungsfunktion (T/F) ganz oben oder erst auf Platz 2?** Wer zuerst beurteilt, hat die „Entscheidungsmaschine" im Vordergrund.
+2. **Ist diese Beurteilungsfunktion nach außen (Te/Fe) oder nach innen (Ti/Fi) gerichtet?** Außen heißt: Die Kriterien liegen offen (Regeln, Zahlen, Gruppe, Ziele). Innen heißt: Die Kriterien sind ein inneres Modell, das erst „stimmig" sein muss.
+3. **Wie sieht der Gegenpol aus, der im Hintergrund bremst oder stützt?**
+
+### Das Grundmuster
+
+```mermaid
+flowchart TD
+    Q["Entscheidung steht an"] --> A{"Welche Funktion<br/>führt?"}
+    A -->|"Te / Fe an der Spitze<br/>(ENTJ, ISTJ, ISFJ)"| B["Beurteilt direkt anhand<br/>äußerer Kriterien"]
+    A -->|"Ti / Fi an der Spitze<br/>(INTP, ISTP)"| C["Prüft gegen inneres Modell<br/>bis es stimmig ist"]
+    A -->|"Wahrnehmer an der Spitze<br/>(ENTP, Ne/Se/Ni/Si)"| D["Sammelt zuerst Daten<br/>Beurteilung kommt als Zweites"]
+    B --> E["Schnell, sichtbar,<br/>oft früh festgelegt"]
+    C --> F["Schnell in vertrautem Terrain,<br/>sonst langes inneres Prüfen"]
+    D --> G["Offen, lang im Möglichkeitsraum,<br/>Entscheidung kostet Energie"]
+```
+
+Das erklärt auch den Buchstaben **J/P**: **J** heißt, die *Beurteilung* ist deine Visitenkarte nach außen (du legst dich gern fest). **P** heißt, die *Wahrnehmung* ist deine Visitenkarte (du hältst Optionen gern offen).
+
+### Typen im Vergleich
+
+| Typ | Entscheidungsstil | Warum |
+| --- | --- | --- |
+| **ENTJ** (Te–Ni) | Schnell, entschlossen | Te entscheidet anhand klarer Ziele und Kriterien. Ni **verengt** die Optionen auf *einen* Weg. |
+| **ISTJ** (Si–Te) | Zügig, konservativ | Si liefert Präzedenzfälle („das hat funktioniert"), Te wendet Checklisten und Regeln an. |
+| **ISFJ** (Si–Fe) | Schnell für andere, langsamer für sich selbst | Fe weiß, was die Gruppe braucht. Eigene Wünsche haben kein klares Kriterium (Ti ist erst tertiär). |
+| **ISTP** (Ti–Se) | Blitzschnell im Moment, träge bei Langfristigem | Se entscheidet spontan im Handeln. Abstrakte, lange Pläne haben wenig Kriterien. |
+| **INTP** (Ti–Ne) | Gründlich, oft verzögert | Ti will ein stimmiges Modell, Ne liefert ständig neue Varianten und Gegenbeispiele. |
+| **ENTP** (Ne–Ti) | Zögerlich bis sprunghaft | Siehe unten. |
+
+### Warum ENTPs es schwer haben
+
+Beim ENTP greifen **vier Faktoren** ineinander:
+
+```mermaid
+flowchart LR
+    Ne["Ne (dominant)<br/>erzeugt immer neue Optionen"] --> Ti["Ti (Hilfsfunktion)<br/>will die logisch beste Lösung"]
+    Ti -->|"findet bei jeder Option<br/>eine Schwachstelle"| Ne
+    Fe["Fe (tertiär)<br/>fügt Wirkung auf andere hinzu"] --> Ti
+    Si["Si (inferior)<br/>keine verlässliche Erfahrungsbasis"] -.->|"fehlt als Anker"| Ti
+    Ti -.-> X["Ergebnis: Schleife aus<br/>Optionen und Zweifeln"]
+```
+
+1. **Die Dominante ist ein Wahrnehmer.** Ne *will* Möglichkeiten sammeln, nicht schließen. Eine Entscheidung bedeutet für Ne, dass 9 von 10 spannenden Wegen sterben. Das fühlt sich wie Verlust an.
+2. **Die Beurteilung kommt erst als Hilfsfunktion und ist introvertiert.** Ti hat kein äußeres Regelwerk. Es braucht ein *innen* stimmiges Argument. Weil Ne laufend neue Daten liefert, kippt das Modell ständig.
+3. **Fe in der Tertiären** bringt eine dritte Ebene ins Spiel: „Was bedeutet das für die anderen? Wie kommt es an?" Mehr Variablen, mehr Abwägung.
+4. **Das inferiore Si fehlt als Anker.** Si wäre das „Das haben wir schon so gemacht, das hat funktioniert". Beim ENTP ist das die schwächste Funktion. Er hat wenig Vertrauen in Erfahrung und Routine und muss jede Entscheidung quasi neu begründen. Unter Druck kommen Angstbilder (schlechte Erinnerungen, Details, Körperbeschwerden).
+
+**Wichtig:** Das ist keine Schwäche im Denken. ENTPs treffen sehr schnell Entscheidungen, wenn die Optionen **klar, umkehrbar oder von außen vorgegeben** sind (z. B. Deadline, Gesprächspartner, externes Kriterium). Das Problem liegt bei **offenen Entscheidungen mit vielen Möglichkeiten und ohne Frist**.
+
+### Praktische Hebel für ENTPs
+
+- **Externe Frist setzen:** Das ersetzt das fehlende äußere Kriterium (Te/Fe-Ersatz).
+- **Optionen vorab begrenzen:** Maximal 3 Varianten zulassen, danach wählen.
+- **Entscheidung als Experiment framen:** „Wir testen 4 Wochen." Das beruhigt Ne, weil nichts endgültig ist.
+- **„Gut genug"-Kriterien vorher festlegen:** So hört Ti auf, nach der perfekten Lösung zu suchen.
+- **Mit einem Te-Menschen sprechen:** Jemand mit klarem Zahlen- und Zielfokus liefert den fehlenden Rahmen.
+- **Si bewusst nutzen:** Frühere ähnliche Entscheidungen aufschreiben und prüfen, was tatsächlich funktioniert hat.
+
+**Einordnung:** Entscheidungsverhalten hängt zusätzlich von Erfahrung, Stress, Kontext und Persönlichkeitsmerkmalen ab (z. B. Gewissenhaftigkeit, Ängstlichkeit). Der Stack erklärt Tendenzen, aber nicht jeden Einzelfall.
+
+---
+
+## 7. Was du daraus mitnehmen kannst
 
 1. **Der Buchstaben-Code ist eine Kurzschrift.** Dahinter stehen immer vier Funktionen in einer festen Rangfolge.
 2. **Dominante und Hilfsfunktion wechseln sich ab:** innen/außen **und** Wahrnehmen/Beurteilen.
