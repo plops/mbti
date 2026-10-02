@@ -6,6 +6,19 @@ ich moechte eine uebersichtliche einfuehrung, welche cognitive functions es gibt
 
 der folgende text ist das erste mal, dass ich die unterliegenden annahmen vollstaendig verstanden habe (vorher habe ich immer alle cognitive functions verwechselt, mir war nicht klar das es welche zur datenaufnahme und welche zur datenverarbeitung gibt)
 
+
+ich habe auch schonmal in KognitiveFunktionenVerstehen_attempt1.md versucht, einen text zu entwickeln, dieser richtet sich aber zu sehr am folgenden beispiel und springt ohne ordentliche einfuehrung ins thema "Der häufigste Fehler (auch bei mir): alle Funktionen in einen Topf werfen. ... " 
+mir gefaellt die tabelle mit typischen reaktionen, sie sollte aber mehr explizit in wahrnehmer und beurteiler aufteilen.
+
+dieser satz macht keinen sinn: Jugendliche suchen intensiv, wie sie wirken und wie sie die Dominante in der Welt einsetzen können (das ist die Hilfsfunktion).
+
+bei einer auflistung wie "Sechs Typen im Vergleich" sollte auch ein menschenlesbarer name fuer jedes beispiel gelistet werden (INTP = Logiker).
+
+ich moechte das der text ansprechend fuer INTP wird. ich selbst bin ENTP. meine mutter ist ISFJ, mein Vater INTJ. mein cousin ist (vermutlich) ESFP, er hat vor kurzem einen businessplan erarbeitet (kauf eines weit abgelegenen anwesens, schokoladenfabrikation), der mich und mein vater nicht wirklich ueberzeugt (zahlen geschoent, zu positiv, ignorieren vom risiko das disability rente bei gruendung wegfaellt, aber ist sonst sehr erfolgreich und direkter kundeninteraktion wenn bei verkaufsstand und wagen bei festivals, hat dann sogar mitarbeiter). das ist interessant, denn dies laesst sich vielleicht gut mit der tabelle in attempt 1 erklaeren. schreibe einen neuen entwurf.
+
+bei behauptungen wie "Dein Funktionsstapel ist wie ein Gyroskop: Damit die Psyche nicht „kippt", gelten zwei Baugesetze für die ersten beiden Funktionen." gefaellt mir nicht, dass sie einfach so in den raum gestellt werden. wenn moeglich sollte auf unterstuetzende studien (z.b. an zwillingen) verwiesen werden oder - falls das nicht moeglich ist - daran erinnert werden, dass es sich um ein modell handelt und dass es in sich sinn macht.
+
+
 Ti and Fe (or Fi) can never be your primary and secondary functions because your brain requires structural balance to function. In MBTI theory, your cognitive function stack acts like a psychological gyroscope. To prevent your personality from being completely lopsided, the human mind operates on two fundamental laws of balance: Orientation Balance and Judgment/Perception Balance.
 Here is the exact structural breakdown of why these specific combinations are impossible.
 Law 1: The Extraverted / Introverted Balance
